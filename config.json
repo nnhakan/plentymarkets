@@ -1,0 +1,229 @@
+[
+    {
+        "tab"     : "Novalnet Global Configuration",
+        "key"     : "payment_active",
+        "label"   : "Enable payment method",
+                "type": "dropdown",
+                "possibleValues": {
+                        "1": "Yes",
+                        "0": "No"
+                },
+                "default": "0"
+    },
+    {
+      "tab": "Novalnet Global Configuration",
+      "key": "test_mode",
+      "label": "Enable test mode",
+      "type": "dropdown",
+      "possibleValues": {
+        "1": "Yes",
+        "0": "No"
+      },
+      "default": "1"
+    },
+    {
+        "tab"     : "Novalnet Global Configuration",
+        "key"     : "vendor_id",
+        "label"   : "Merchant ID*",
+        "type"    : "text"
+    },
+    {
+        "tab"     : "Novalnet Global Configuration",
+        "key"     : "auth_code",
+        "label"   : "Authentication code*",
+        "type"    : "text"
+    },
+    {
+        "tab"     : "Novalnet Global Configuration",
+        "key"     : "product_id",
+        "label"   : "Project ID*",
+        "type"    : "text"
+    },
+    {
+        "tab"     : "Novalnet Global Configuration",
+        "key"     : "tariff",
+        "label"   : "Tariff ID*",
+        "type"    : "text"
+    },
+    {
+        "tab"     : "Novalnet Global Configuration",
+        "key"     : "access_key",
+        "label"   : "Payment access key*",
+        "type"    : "text"
+    },    
+    {
+        "tab"     : "Novalnet Global Configuration",
+        "key"     : "name",
+        "label"   : "Payment name",
+        "type"    : "text"
+    },
+    {
+        "tab"     : "Novalnet Global Configuration",
+        "key"     : "description",
+        "label"   : "Payment description",
+        "type"    : "textarea",
+        "default" : ""
+    },
+    {
+        "tab"     : "Novalnet Global Configuration",
+        "key"     : "on_hold",
+        "label"   : "Set a limit for on-hold transaction (in minimum unit of currency. E.g. enter 100 which is equal to 1.00)",
+        "type"    : "text"
+    },
+    {
+        "tab": "Novalnet Global Configuration",
+        "key": "order_completion_status",
+        "label": "Order completion status",
+        "type": "text",
+        "default": "7.1"
+    },
+    {
+        "tab": "Novalnet Global Configuration",
+        "key": "order_cancel_status",
+        "label": "Cancellation order status",
+        "type": "text",
+        "default": "8"
+    },
+    {
+        "tab"     : "Novalnet Global Configuration",
+        "key"     : "referrer_id",
+        "label"   : "Referrer ID",
+        "type"    : "text"
+    },
+    {
+        "tab"     : "Novalnet Global Configuration",
+        "key"     : "reference1",
+        "label"   : "Transaction reference 1",
+        "type"    : "text"
+    },
+    {
+        "tab"     : "Novalnet Global Configuration",
+        "key"     : "reference2",
+        "label"   : "Transaction reference 2",
+        "type"    : "text"
+    },
+    {
+        "tab"     : "Credit Card",
+        "key"     : "cc_3d",
+        "label"   : "Enable 3D secure",
+        "type": "dropdown",
+        "possibleValues": {
+            "1": "Yes",
+            "0": "No"
+        },
+        "default": "0"
+    },
+    {
+        "tab"     : "Direct Debit SEPA",
+        "key"     : "sepa_due_date",
+        "label"   : "SEPA Payment duration (in days)",
+        "type"    : "text"
+    },
+    {
+        "tab"     : "Invoice",
+        "key"     : "invoice_due_date",
+        "label"   : "Payment due date (in days)",
+        "type"    : "text"
+    },
+    {
+        "tab": "Invoice",
+        "key": "invoice_callback_order_status",
+        "label": "Callback order status",
+        "type": "text",
+        "default": "9.5"
+    },
+    {
+        "tab"       : "Invoice",
+        "key"       : "invoice_payment_reference",
+        "label"     : "Payment Reference",
+        "type"      : "multi_select",
+        "possibleValues": {
+            "ref": "Novalnet Invoice Reference",
+            "tid": "TID",
+            "order_no": "Order No"
+        },
+        "default"   : "all"
+    },
+    {
+        "tab": "Prepayment",
+        "key": "prepayment_callback_order_status",
+        "label": "Callback order status",
+        "type": "text",
+        "default": "9.5"
+    },
+    {
+        "tab"       : "Prepayment",
+        "key"       : "prepayment_payment_reference",
+        "label"     : "Payment Reference",
+        "type"      : "multi_select",
+        "possibleValues": {
+            "ref": "Novalnet Invoice Reference",
+            "tid": "TID",
+            "order_no": "Order No"
+        },
+        "default"   : "all"
+    },
+    {
+        "tab": "PayPal",
+        "key": "paypal_payment_pending_status",
+        "label": "Order status for the pending payment",
+        "type": "text",
+        "default": "3"
+    },
+    {
+        "tab": "Przelewy24",
+        "key": "przelewy_payment_pending_status",
+        "label": "Order status for the pending payment",
+        "type": "text",
+        "default": "3"
+    },
+    {
+        "tab"     : "Barzahlen",
+        "key"     : "cashpayment_due_date",
+        "label"   : "Slip expiry date (in days)",
+        "type"    : "text"
+    },
+    {
+        "tab": "Barzahlen",
+        "key": "cashpayment_callback_order_status",
+        "label": "Callback order status",
+        "type": "text",
+        "default": "9.5"
+    },
+    {
+        "tab"     : "Merchant script management",
+        "key"     : "callback_test_mode",
+        "label"   : "Enable test mode",
+        "type": "dropdown",
+        "possibleValues": {
+            "1": "Yes",
+            "0": "No"
+        },
+        "default": "0"
+    },
+    {
+        "tab"     : "Merchant script management",
+        "key"     : "enable_email",
+        "label"   : "Enable E-mail notification for callback",
+        "type": "dropdown",
+        "possibleValues": {
+            "1": "Yes",
+            "0": "No"
+        },
+        "default": "0"
+    },
+    {
+        "tab"     : "Merchant script management",
+        "key"     : "email_to",
+        "label"   : "E-mail address (To)",
+        "type"    : "text",
+        "default" : ""
+    },
+    {
+        "tab"     : "Merchant script management",
+        "key"     : "email_bcc",
+        "label"   : "E-mail address (Bcc)",
+        "type"    : "text",
+        "default" : ""
+    }
+]
